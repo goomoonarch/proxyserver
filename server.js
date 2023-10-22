@@ -21,5 +21,5 @@ app.post('/api/interoperabilidad/GetEPSPersonaMSS', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Servidor de proxy corriendo en http://localhost:${PORT}`);
+    console.log(`Servidor de proxy corriendo en https://proxy-cors-service.onrender.com:${PORT}`);
 });
